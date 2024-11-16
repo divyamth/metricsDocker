@@ -1,0 +1,14 @@
+2024-11-16 19:04:33,946 WARNING Invalid value for parameter, using default: 1
+2024-11-16 19:04:33,946 WARNING Invalid value for parameter, using default: 1
+2024-11-16 19:04:41,185 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-16 19:04:41,188 WARNING Invalid value for parameter, using default: 1
+2024-11-16 19:04:41,190 WARNING Invalid value for parameter, using default: 1
+2024-11-16 19:04:48,411 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-16 19:16:49,243 WARNING Invalid value for parameter, using default: 1
+2024-11-16 19:16:49,246 WARNING Invalid value for parameter, using default: 1
+2024-11-16 19:16:56,510 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-16 19:16:56,510 WARNING Invalid value for parameter, using default: 1
+2024-11-16 19:16:56,516 WARNING Invalid value for parameter, using default: 1
+2024-11-16 19:16:58,751 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-16 19:17:03,784 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-16 19:17:08,215 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
