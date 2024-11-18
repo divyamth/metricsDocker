@@ -60,6 +60,7 @@ Another security consideration is a lack of user-authentication. This can be tac
 
 ## Unit Tests
 <a href="unit-test"><img src="images/unit-test.png" align="middle" width="1080" height="352"></a>
+The Unit Tests involve testing all API endpoints for error handling and proper functioning. They ensure that all routes and APIs are properly configured and respond accordingly with no loopholes in execution to ensure proper functioning and future scalability.
 
 ## System Architecture
 <a href="unit-test"><img src="images/metricsDocker_System-Architecture.png" align="middle" width="1280" height="720"></a>
