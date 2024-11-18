@@ -34,6 +34,11 @@ Using **Nginx** ensures that proper routing and reserve proxies can be configure
 
 The entire solution presents a frontend that is user-centric and displays the metrics in an easily-readable manner. It also shows the health check along with the real-time metrics that further increase the user-friendly nature of this solution.
 
+## API Documentation
+The following API endpoints perform the following
+- /realmetrics - Endpoint which will record the system metrics in real-time and expose them to the frontend
+- /health - Endpoint that performs health check of the Docker container and gives the output
+
 ## Unit Tests
 <a href="unit-test"><img src="images/unit-test.png" align="middle" width="1080" height="352"></a>
 
