@@ -18,7 +18,6 @@ The website displays the following information:
 - Per Port Network Activity
 - Services running on the system
 - Health Check
-- Historical Metrics
 
 The entire system works in real-time with updates taking place once per second.
 
