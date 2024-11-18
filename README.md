@@ -36,3 +36,6 @@ The entire solution presents a frontend that is user-centric and displays the me
 
 ## Unit Tests
 <a href="unit-test"><img src="images/unit-test.png" align="middle" width="1080" height="352"></a>
+
+## System Architecture
+<a href="unit-test"><img src="images/metricsDocker_System-Architecture.png" align="middle" width="1080" height="1920"></a>
