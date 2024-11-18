@@ -46,8 +46,17 @@ The entire solution presents a frontend that is user-centric and displays the me
 
 ## API Documentation
 The following API endpoints perform the following
-- /realmetrics - Endpoint which will record the system metrics in real-time and expose them to the frontend
-- /health - Endpoint that performs a health check of the Docker container and gives the output
+- /realmetrics - Endpoint which will record the system metrics in real-time and expose them to the frontend.
+- /health - Endpoint that performs a health check of the Docker container and gives the output.
+
+## Security Considerations
+The certificates used are developer certificates resulting in a warning after deployment and access. To counter this, the certificate must be added to **Trusted Root Certification Authority**.
+To do this, follow the steps:
+- Press **Windows + R** on your Windows system and type in **certmgr.msc**.
+- Find and right-click on **Trusted Root Certification Authority** to access a sub-menu.
+- Click on **import** and select the **certificate.crt** to ensure that the system recognizes the certificate used by this program.
+
+Another security consideration is a lack of user-authentication. This can be tackled by using **OAuth** or similar authentication services like **Clerk Authentication** in future revisions.
 
 ## Unit Tests
 <a href="unit-test"><img src="images/unit-test.png" align="middle" width="1080" height="352"></a>
