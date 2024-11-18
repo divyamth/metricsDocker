@@ -34,3 +34,6 @@ The **Docker** files provide proper configuration for containerizing the entire 
 Using **Nginx** ensures that proper routing and reserve proxies can be configured. It further allows for rate limiting and securing API endpoints with proper SSL/TLS security configurations.
 
 The entire solution presents a frontend that is user-centric and displays the metrics in an easily-readable manner. It also shows the health checks and historical metrics along with the real-time metrics that further increases the user-friendly nature of this solution.
+
+## Unit Tests
+<a href="unit test"><img src="https://github.com/divyamth/metricsDocker/images/unit test.png" align="middle" width="100" height="50"></a>
