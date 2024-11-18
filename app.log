@@ -12,3 +12,195 @@
 2024-11-16 19:16:58,751 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
 2024-11-16 19:17:03,784 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
 2024-11-16 19:17:08,215 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 16:35:01,669 WARNING Invalid value for parameter, using default: 1
+2024-11-17 16:35:01,669 WARNING Invalid value for parameter, using default: 1
+2024-11-17 16:35:04,409 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 16:35:04,412 WARNING Invalid value for parameter, using default: 1
+2024-11-17 16:35:04,412 WARNING Invalid value for parameter, using default: 1
+2024-11-17 16:35:06,985 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 16:35:07,112 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 16:35:11,856 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 16:35:16,662 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 16:35:21,503 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:35:48,366 WARNING Invalid value for parameter, using default: 1
+2024-11-17 18:35:51,085 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:35:51,232 WARNING Invalid value for parameter, using default: 1
+2024-11-17 18:35:55,580 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:00,452 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:05,308 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:10,225 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:15,105 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:19,961 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:24,786 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:29,781 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:34,706 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:39,703 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:44,591 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:49,479 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:54,343 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:36:59,186 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:04,112 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:08,972 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:14,094 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:19,109 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:24,066 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:28,918 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:33,926 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:38,803 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:43,674 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:48,531 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:53,395 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:37:58,248 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:03,151 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:08,056 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:12,949 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:17,910 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:22,817 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:27,785 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:32,646 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:37,473 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:42,300 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:47,135 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:52,018 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:38:56,868 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:01,982 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:07,030 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:12,078 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:17,019 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:21,886 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:26,754 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:31,617 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:36,560 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:41,718 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:46,748 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:52,281 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:39:57,182 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:02,065 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:07,048 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:11,969 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:16,893 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:21,774 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:26,784 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:31,685 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:36,595 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:41,477 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:47,018 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:52,209 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:40:57,128 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:02,096 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:06,978 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:11,865 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:16,761 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:21,643 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:26,494 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:31,363 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:36,223 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:41,210 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:46,146 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:51,087 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:41:56,252 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:01,222 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:06,254 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:11,183 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:16,046 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:21,046 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:25,920 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:30,817 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:35,704 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:40,636 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:45,603 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:50,653 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:42:55,564 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:43:00,405 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:43:05,350 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:43:10,392 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:43:19,243 WARNING Invalid value for parameter, using default: 1
+2024-11-17 18:43:21,943 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:43:22,022 WARNING Invalid value for parameter, using default: 1
+2024-11-17 18:44:52,820 WARNING Invalid value for parameter, using default: 1
+2024-11-17 18:44:55,519 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:44:55,601 WARNING Invalid value for parameter, using default: 1
+2024-11-17 18:50:24,427 WARNING Invalid value for parameter, using default: 1
+2024-11-17 18:50:27,129 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:50:27,301 WARNING Invalid value for parameter, using default: 1
+2024-11-17 18:52:27,809 WARNING Invalid value for parameter, using default: 1
+2024-11-17 18:52:30,501 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:52:30,581 WARNING Invalid value for parameter, using default: 1
+2024-11-17 18:58:46,049 WARNING Invalid value for parameter, using default: 1
+2024-11-17 18:58:50,513 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:58:55,398 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:59:00,274 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 18:59:05,133 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:00:59,709 WARNING Invalid value for parameter, using default: 1
+2024-11-17 19:00:59,709 ERROR Exception on /historical-metrics [GET]
+Traceback (most recent call last):
+  File "C:\Users\divya\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divya\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divya\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divya\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divya\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divya\OneDrive\Desktop\realtime-metrics\backend\app.py", line 133, in historical_metrics
+    if redis_client:
+       ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'redis_client' where it is not associated with a value
+2024-11-17 19:00:59,815 WARNING Invalid value for parameter, using default: 1
+2024-11-17 19:01:36,577 WARNING Invalid value for parameter, using default: 1
+2024-11-17 19:01:36,577 ERROR Exception on /historical-metrics [GET]
+Traceback (most recent call last):
+  File "C:\Users\divya\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divya\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divya\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divya\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divya\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\divya\OneDrive\Desktop\realtime-metrics\backend\app.py", line 133, in historical_metrics
+    if redis_client:
+       ^^^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'redis_client' where it is not associated with a value
+2024-11-17 19:01:36,662 WARNING Invalid value for parameter, using default: 1
+2024-11-17 19:12:51,563 WARNING Invalid value for parameter, using default: 1
+2024-11-17 19:12:54,265 ERROR Error fetching historical metrics from Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:12:54,345 WARNING Invalid value for parameter, using default: 1
+2024-11-17 19:12:58,538 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:03,457 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:08,422 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:13,369 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:18,222 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:23,100 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:28,064 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:32,978 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:37,859 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:42,752 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:47,631 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:52,536 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:13:57,444 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:14:02,343 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:14:07,241 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:14:12,105 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:14:16,971 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:14:21,855 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:14:26,749 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:14:31,634 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:14:36,608 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:14:41,467 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-17 19:14:46,344 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.
+2024-11-18 11:53:58,987 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.

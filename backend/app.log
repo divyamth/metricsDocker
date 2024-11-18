@@ -1,0 +1,7 @@
+2024-11-17 23:55:00,629 WARNING Invalid value for parameter, using default: 10
+2024-11-17 23:55:00,629 WARNING Invalid value for parameter, using default: 10
+2024-11-17 23:55:00,629 WARNING Invalid value for parameter, using default: 10
+2024-11-17 23:56:24,291 WARNING Invalid value for parameter, using default: 10
+2024-11-17 23:56:24,291 WARNING Invalid value for parameter, using default: 10
+2024-11-17 23:56:24,291 WARNING Invalid value for parameter, using default: 10
+2024-11-17 23:56:45,981 ERROR Error storing metrics in Redis: Error 11001 connecting to redis:6379. getaddrinfo failed.

@@ -49,8 +49,14 @@ def validate_integer_param(param, default=1):
 
 @app.route('/realmetrics', methods=['GET'])
 def livemetrics():
+    # Get the interval parameter from the request
+    interval_param = request.args.get('interval', '1')  # Default to '1' as string for validation
+    
     # Validate the 'interval' parameter to control refresh time in seconds
-    interval = validate_integer_param(request.args.get('interval', 1), 1)
+    if not interval_param.isdigit() or int(interval_param) <= 0:
+        return jsonify({"error": "Invalid interval: must be a positive integer"}), 400
+    
+    interval = int(interval_param)
 
     def generate_metrics():
         while True:
@@ -125,9 +131,13 @@ def livemetrics():
 
 @app.route("/historical-metrics", methods=['GET'])
 def historical_metrics():
-    # Optionally validate input for pagination or filtering
-    start = validate_integer_param(request.args.get('start', 0))
-    end = validate_integer_param(request.args.get('end', -1))
+    # Get pagination parameters
+    start_param = request.args.get('start', None)
+    end_param = request.args.get('end', None)
+
+    # Set default values for start and end
+    start = 0 if start_param is None else validate_integer_param(start_param)
+    end = -1 if end_param is None else validate_integer_param(end_param)
 
     try:
         metrics = redis_client.lrange("metrics", start, end)

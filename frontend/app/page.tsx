@@ -29,26 +29,37 @@ interface HealthCheckData{
     details: Record<string, string>;
 }
 
-interface HistoricalMetricData{
-    timestamp: string;
-    cpu_usage: number;
-    memory_percent: number;
-}
+// interface HistoricalMetricData{
+//     timestamp: string;
+//     cpu_usage: number;
+//     memory_percent: number;
+// }
+
+// interface HistoricalMetricRaw{
+//     timestamp: string;
+//     cpu_usage: number;
+//     memory_percent: number;
+// }
 
 const RealTimeMetrics = () => {
     const [metrics, setMetrics] = useState<MetricData | null>(null);
     const [healthCheck, setHealthCheck] = useState<HealthCheckData | null>(null);
-    const [historicalMetrics, setHistoricalMetrics] = useState<HistoricalMetricData[]>([]);
+    // const [historicalMetrics, setHistoricalMetrics] = useState<HistoricalMetricData[]>([]);
 
     useEffect(() => {
         // Create an EventSource to listen for updates from Flask
         const eventSource = new EventSource(`${process.env.NEXT_PUBLIC_BACKEND_URL}/realmetrics`);
-        
-        // Listen for incoming messages
+
+        eventSource.onopen = () => {
+            console.log("EventSource connection opened.");
+        };
+
         eventSource.onmessage = (event) => {
+            console.log("Received event data:", event.data);
             try {
                 const data: MetricData = JSON.parse(event.data);
-                setMetrics(data); // Update the state with the new metrics
+                setMetrics(data);
+                console.log("Metrics updated:", data);
             } catch (error) {
                 console.error("Error parsing SSE data:", error);
             }
@@ -61,7 +72,7 @@ const RealTimeMetrics = () => {
 
         const fetchHealthCheck = async () => {
             try{
-                const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/health`);
+                const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/health`);
                 const data: HealthCheckData = await response.json();
                 setHealthCheck(data);
             }catch(error){
@@ -69,18 +80,29 @@ const RealTimeMetrics = () => {
             }
         };
 
-        const fetchHistoricalMetrics = async () => {
-            try {
-                const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/historical-metrics`);
-                const data: HistoricalMetricData[] = await response.json();
-                setHistoricalMetrics(data);
-            } catch (error) {
-                console.error('Error fetching historical metrics:', error);
-            }
-        };
+        // const fetchHistoricalMetrics = async () => {
+        //     try{
+        //         const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/api/historical-metrics`);
+        //         if(!response.ok){
+        //             throw new Error('Failed to fetch historical metrics');
+        //         }
+        //         const data = await response.json();
+        //         const metrics = data["historical-metrics"].map((metric: string) => {
+        //             const parsedMetric: HistoricalMetricRaw = JSON.parse(metric);
+        //             return{
+        //                 timestamp: parsedMetric.timestamp,
+        //                 cpu_usage: parsedMetric.cpu_usage,
+        //                 memory_percent: parsedMetric.memory_percent,
+        //             };
+        //         });
+        //         setHistoricalMetrics(metrics);
+        //     } catch(error){
+        //         console.error('Error fetching historical metrics:', error);
+        //     }
+        // };
 
         fetchHealthCheck();
-        fetchHistoricalMetrics();
+        // fetchHistoricalMetrics();
 
         //Cleanup: Close the connection when the component unmounts
         return () => {
@@ -104,7 +126,7 @@ const RealTimeMetrics = () => {
                     {/* Memory Usage */}
                     <div className="flex-1 border p-4 rounded-lg bg-gray-50 shadow">
                         <p className="text-lg font-semibold text-gray-800">Memory Usage</p>
-                        <p className="text-2xl font-bold text-indigo-600">{metrics.memory.percent}%</p>
+                        <p className="text-2xl font-bold text-indigo-600">{metrics?.memory?.percent || 0    }%</p>
                         <p className="text-sm text-gray-600">Total: {(metrics.memory.total / (1024 ** 3)).toFixed(2)} GB</p>
                         <p className="text-sm text-gray-600">Available: {(metrics.memory.available / (1024 ** 3)).toFixed(2)} GB</p>
                     </div>
@@ -189,35 +211,6 @@ const RealTimeMetrics = () => {
                         </div>
                     ) : (
                             <p>Loading health check data...</p>
-                        )}
-                    </div>
-
-                    {/* Historical Metrics */}
-                    <div className="border-t pt-6">
-                        <h3 className="text-xl font-bold text-gray-700">Historical Metrics</h3>
-                        {historicalMetrics.length > 0 ? (
-                            <div className="overflow-x-auto">
-                                <table className="w-full text-left border-collapse">
-                                    <thead>
-                                        <tr>
-                                            <th className="border-b p-2">Timestamp</th>
-                                            <th className="border-b p-2">CPU Usage</th>
-                                            <th className="border-b p-2">Memory Usage (%)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {historicalMetrics.map((metric, index) => (
-                                            <tr key={index} className="border-b">
-                                                <td className="p-2">{metric.timestamp}</td>
-                                                <td className="p-2">{metric.cpu_usage}%</td>
-                                                <td className="p-2">{metric.memory_percent}%</td>
-                                            </tr>
-                                        ))}
-                                    </tbody>
-                                </table>
-                            </div>
-                        ) : (
-                            <p>No historical metrics available.</p>
                         )}
                     </div>
                 </div>
