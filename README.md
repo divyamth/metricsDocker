@@ -4,10 +4,10 @@
 The frontend is built using **NextJS**, making it easier to create routes and dynamically fetch data from the backend server.
 It allows easier and more streamlined development with a better user interface that is pleasing to use. It uses the shad-cn UI library for styling configurations and Typescript for development.
 
-The frontend uses **interface** to ensure type safety in the structure of data that is being fetched and displayed. Using interfaces also provides other benefits like code readability and error prevention.
+The frontend uses **interface** to ensure type safety in the data structure being fetched and displayed. Using interfaces also provides other benefits like code readability and error prevention.
 
-The **RealTimeMetrics** component contains state variables that store the data defined. Using the **useEffect** hook, data is fetched in real-time with event listeners. The **EventSource** enables **Server-Sent Events (SSE)** which is used to establish a connection to the server.
-Further, functions like **fetchHealthCheck** and **fetchHistoricalMetrics** are used to fetch the health check status and past metrics respectively and display them in the frontend website to the user.
+The **RealTimeMetrics** component contains state variables that store the data defined. Using the **useEffect** hook, data is fetched in real time with event listeners. The **EventSource** enables **Server-Sent Events (SSE)**, which is used to establish a connection to the server.
+Further, functions like **fetchHealthCheck** fetch the health check status and past metrics respectively and display them in the frontend website to the user.
 
 Using **Cleanup**, the SSE connection established earlier is closed and all the resources are cleaned up to ensure optimization.
 
@@ -32,7 +32,7 @@ The **Docker** files provide proper configuration for containerizing the entire 
 ## Nginx
 Using **Nginx** ensures that proper routing and reserve proxies can be configured. It further allows for rate limiting and securing API endpoints with proper SSL/TLS security configurations.
 
-The entire solution presents a frontend that is user-centric and displays the metrics in an easily-readable manner. It also shows the health checks and historical metrics along with the real-time metrics that further increases the user-friendly nature of this solution.
+The entire solution presents a frontend that is user-centric and displays the metrics in an easily-readable manner. It also shows the health check along with the real-time metrics that further increase the user-friendly nature of this solution.
 
 ## Unit Tests
 <a href="unit-test"><img src="images/unit-test.png" align="middle" width="1080" height="352"></a>
