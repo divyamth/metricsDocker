@@ -36,4 +36,4 @@ Using **Nginx** ensures that proper routing and reserve proxies can be configure
 The entire solution presents a frontend that is user-centric and displays the metrics in an easily-readable manner. It also shows the health checks and historical metrics along with the real-time metrics that further increases the user-friendly nature of this solution.
 
 ## Unit Tests
-<a href="unit-test"><img src="images/unit-test.png" align="middle" width="700" height="352"></a>
+<a href="unit-test"><img src="images/unit-test.png" align="middle" width="1080" height="352"></a>
